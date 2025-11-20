@@ -3,8 +3,11 @@ import requests
 import json
 import os
 
-API_URL = os.getenv("API_URL")  # Replace with your actual API Gateway endpoint
-API_KEY = os.getenv("API_KEY")  # Replace with your actual API key if needed
+# API_URL = os.getenv("API_URL")  # Replace with your actual API Gateway endpoint
+# API_KEY = os.getenv("API_KEY")  # Replace with your actual API key if needed
+
+# API_URL="https://nccf2p4hfa.execute-api.us-east-2.amazonaws.com/prod/predict"
+# API_KEY="30ywlLorln7AwpOwrzT9vln0HCdmZIN2yBKkFoV5"
 
 st.set_page_config(page_title="Inference App", layout="wide")
 st.title("Inference Application")
